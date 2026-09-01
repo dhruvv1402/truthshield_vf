@@ -1,0 +1,19 @@
+# Web layer
+fastapi>=0.115
+uvicorn[standard]>=0.32
+jinja2>=3.1            # backs fastapi.templating.Jinja2Templates
+pydantic>=2.9
+python-dotenv>=1.0
+requests>=2.32
+
+# ML — the phase-1 checkpoint was saved with transformers 5.x
+torch>=2.6             # Docker installs the CPU wheel first; see Dockerfile
+transformers>=5.0
+nltk>=3.9
+numpy>=1.26
+
+# Agent / live verification
+langchain-nvidia-ai-endpoints>=0.3
+
+# Weight fetching (download_models.py)
+py7zr>=0.22

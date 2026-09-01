@@ -1,0 +1,18 @@
+# Build context hygiene — these are large and never needed inside the image.
+.git
+.venv
+**/.venv
+**/__pycache__
+**/*.pyc
+backend/models
+backend/.env
+frontend/node_modules
+frontend/dist
+Model_desgin_v1
+Model_desgin_v2
+Model_desgin_v3
+report_ppts
+project_structure.txt
+*.7z
+*.zip
+*.csv

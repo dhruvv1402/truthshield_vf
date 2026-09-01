@@ -1,0 +1,15 @@
+.env
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd 
+
+.vscode/
+
+# Weights fetched by download_models.py (published as GitHub release assets)
+models/
+*.7z
+
+# Built Svelte bundle copied in by the Docker build
+frontend_dist/
