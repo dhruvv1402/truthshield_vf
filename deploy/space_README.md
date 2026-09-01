@@ -44,4 +44,4 @@ Without them the Space still runs — it falls back to local model scoring only.
 `POST /analyze` and `POST /analyze_stream` (newline-delimited JSON stream).
 `GET /health` reports device and which capabilities are configured.
 
-Source: <https://github.com/Gyaanendra/AIML-PROJECT-CSET312>
+Source: <https://github.com/dhruvv1402/truthshield_vf>

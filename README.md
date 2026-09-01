@@ -91,10 +91,10 @@ pip install -r requirements.txt
 python download_models.py
 ```
 
-> The phase-1 RoBERTa checkpoint and phase-2 fusion head are published as
-> [release assets](https://github.com/Gyaanendra/AIML-PROJECT-CSET312/releases/tag/v3),
-> not committed to the tree. `download_models.py` pulls and unpacks both into
-> `backend/models/`.
+> The phase-1 RoBERTa checkpoint and phase-2 fusion head are far too large for
+> the git tree, so they ship as release assets. `download_models.py` fetches and
+> unpacks both into `backend/models/`; set `MODEL_RELEASE_REPO` and
+> `MODEL_RELEASE_TAG` to pull them from a different release.
 
 #### Environment Variables Config (`.env`)
 You must configure your `.env` file in the `/backend` directory before running. Do not commit credentials to Git.
