@@ -1,5 +1,9 @@
 # Truth Shield 🛡️
 
+**[Live demo -> dhruvv1402--truth-shield-truthshield-web.modal.run](https://dhruvv1402--truth-shield-truthshield-web.modal.run)**
+
+Paste an article into the Detector and pick a mode: the trained classifier on its own, the live-web agent on its own, or both weighted together.
+
 **Truth Shield** is an advanced **Agentic Threat Intelligence & Fake News Detection platform**, initially developed under the codename *VIGIL-AI*. It features a multi-layered verification system that seamlessly balances fine-tuned Machine Learning models with live web verification provided by AI Agents.
 
 Our ecosystem is designed for structural linguistic analysis of text (fake news detection) through state-of-the-art machine learning algorithms and reasoning engines.
